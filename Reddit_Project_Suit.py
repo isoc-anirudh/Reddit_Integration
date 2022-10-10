@@ -348,7 +348,7 @@ class RedditReportPull:
             raise e
 
     """ This function is to delete last 30th day file from s3"""
-
+    
     def delete_s3_file(self):
         try:
             date_30_ago = datetime.datetime.now() - timedelta(days=31)
