@@ -7,7 +7,6 @@ import os
 import subprocess
 from botocore.errorfactory import ClientError
 import psycopg2
-
 import boto3
 import logging
 #import MySQLdb
